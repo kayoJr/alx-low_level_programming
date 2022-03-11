@@ -6,12 +6,22 @@
  */
 int main(void)
 {
-int x, y;
+	char c = 'a';
 
-for (m = 97; m <= 122; m++)
-putchar(m);
-for (n = 65; n <= 90; n++)
-putchar(n);
-putchar('\n');
-return (0);
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	putchar('\n');
+	return (0);
 }
