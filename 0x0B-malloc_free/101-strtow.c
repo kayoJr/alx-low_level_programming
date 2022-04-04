@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include "holberton.h"
+#include <stdio.h>
 
 /**
  * strtow - char
