@@ -19,7 +19,6 @@ int _isdigit(char *argv)
 	}
 	return (0);
 }
-
 /**
   * _atoi - converts a string of ascii digits to the values they represent
   * @s: pointer to the source string
@@ -41,14 +40,12 @@ int _atoi(char *s)
 	}
 	return (result);
 }
-
 /**
   * main - main function call
   * @argc: argument count
   * @argv: 2D array of arguments
   * Return: return 0 on success, 98 on failure
   */
-  
 int main(int argc, char *argv[])
 {
 	int i;
